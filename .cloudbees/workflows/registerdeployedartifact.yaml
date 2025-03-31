@@ -18,6 +18,6 @@ jobs:
         with:
           name: cbpautomation/python-hello-world-docker
           version: ${{ inputs.version }} 
-          url: docker.io/cbpautomation/python-hello-world-docker:${{ inputs.version }}
+          url: docker.io/cbpautomation/python-hello-world-docker:0.0.383
           digest: sha256:102f6f3d863fcd801815e527be029cb191059416616f3581b55e20585f4a7dec
           target-environment: ${{ inputs.env }}
