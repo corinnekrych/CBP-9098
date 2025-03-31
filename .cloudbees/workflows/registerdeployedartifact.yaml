@@ -3,13 +3,6 @@ kind: workflow
 name: RegisterDeployedArtifact
 on:
   workflow_dispatch:
-    inputs:
-      version:
-        type: string
-        default: 0.0.0
-      env:
-        type: string
-        default: PREPROD
 jobs:
   env_reg_artifacts:
     steps:
@@ -17,7 +10,7 @@ jobs:
         uses: cloudbees-io/register-deployed-artifact@v1
         with:
           name: cbpautomation/python-hello-world-docker
-          version: ${{ inputs.version }} 
+          version: 0.0.384 
           url: docker.io/cbpautomation/python-hello-world-docker:0.0.383
           digest: sha256:102f6f3d863fcd801815e527be029cb191059416616f3581b55e20585f4a7dec
           target-environment: PREPROD
