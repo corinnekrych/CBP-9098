@@ -7,6 +7,9 @@ on:
       version:
         type: string
         default: 0.0.0
+      env:
+        type: string
+        default: PREPROD
 jobs:
   env_reg_artifacts:
     steps:
