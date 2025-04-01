@@ -11,6 +11,6 @@ jobs:
         with:
           name: cbpautomation/python-hello-world-docker
           version: 1.1.0 
-          url: index.docker.io/cbpautomation/python-hello-world-docker:0.0.184
-          digest: sha256:a81c06a7f4fe44e8e847d803797ae80317711843ac1c3e18a56f31e63b650266
+          url: index.docker.io/cbpautomation/python-hello-world-docker:0.0.181
+          digest: index.docker.io/cbpautomation/python-hello-world-docker:0.0.181
           target-environment: PREPROD
