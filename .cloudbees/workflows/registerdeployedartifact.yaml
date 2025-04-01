@@ -10,7 +10,7 @@ jobs:
         uses: cloudbees-io/register-deployed-artifact@v1
         with:
           name: cbpautomation/python-hello-world-docker
-          version: 1.3.0 
+          version: 1.4.0 
           url: index.docker.io/cbpautomation/python-hello-world-docker:0.0.178
           digest: sha256:023213a82dd6ff3154f6eed8aaad3d1ec2d47eb090274dde6384bddd29785ab3
           target-environment: PREPROD
